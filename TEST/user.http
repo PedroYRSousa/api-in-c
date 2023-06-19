@@ -1,0 +1,29 @@
+# Registro
+POST http://localhost:80/user
+
+{
+	"username": "123321",
+	"email": "123@123.com",
+	"password": "123321"
+}
+
+###
+# Obtem informações
+GET http://localhost:80/user/621b1ece9d0972037e04b7f3
+Authorization: Bearer 246f77889643e0262c4f75ee65c6a61cef1fa4d166e97c24e4a0b91fe7e1504e6e73568d7635b33fcdd3ed960789fb4c32370a
+
+###
+
+PUT http://localhost:80/user/621b1ece9d0972037e04b7f3
+Authorization: Bearer 246f77889643e0262c4f75ee65c6a61cef1fa4d166e97c24e4a0b91fe7e1504e6e73568d7635b33fcdd3ed960789fb4c32370a
+
+{
+	"username": "123321",
+	"email": "123@123.com",
+	"password": "123321"
+}
+
+####
+
+DELETE http://localhost:80/user/621b1ece9d0972037e04b7f3
+Authorization: Bearer 246f77889643e0262c4f75ee65c6a61cef1fa4d166e97c24e4a0b91fe7e1504e6e73568d7635b33fcdd3ed960789fb4c32370a

@@ -1,0 +1,8 @@
+# Autentica
+POST http://localhost:80/auth
+
+{
+	"username": "123321",
+	"email": "123@123.com",
+	"password": "123321"
+}

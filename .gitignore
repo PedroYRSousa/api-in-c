@@ -1,0 +1,4 @@
+*.o
+*.txt
+/CLI/cli
+/API/api

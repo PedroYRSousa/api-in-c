@@ -1,0 +1,18 @@
+# Realize uma jogada
+POST http://localhost:80/roll/100
+Authorization: Bearer 246f77889643e0262c4f75ee65c6a61cef1fa4d166e97c24e4a0b91fe7e1504e6e73568d7635b33fcdd3ed960789fb4c32370a
+
+###
+
+GET http://localhost:80/roll
+Authorization: Bearer 246f77889643e0262c4f75ee65c6a61cef1fa4d166e97c24e4a0b91fe7e1504e6e73568d7635b33fcdd3ed960789fb4c32370a
+
+###
+
+GET http://localhost:80/roll/621b20529d0972037e04b7f5
+Authorization: Bearer 246f77889643e0262c4f75ee65c6a61cef1fa4d166e97c24e4a0b91fe7e1504e6e73568d7635b33fcdd3ed960789fb4c32370a
+
+###
+
+DELETE http://localhost:80/roll/621b1f0c9d0972037e04b7f4
+Authorization: Bearer 246f77889643e0262c4f75ee65c6a61cef1fa4d166e97c24e4a0b91fe7e1504e6e73568d7635b33fcdd3ed960789fb4c32370a

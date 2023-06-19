@@ -1,0 +1,6 @@
+# Realize uma jogada
+GET http://localhost:80/class
+
+###
+
+GET http://localhost:80/class/621995e2766303022f3c320d

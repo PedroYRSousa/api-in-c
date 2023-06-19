@@ -1,0 +1,6 @@
+# Realize uma jogada
+GET http://localhost:80/race
+
+###
+
+GET http://localhost:80/race/62199672766303022f3c3231
